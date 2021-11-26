@@ -1,0 +1,24 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+
+
+
+<div>
+    <h3>Shop</h3>
+    <hr>
+
+    <div class="mr-auto">
+        <a href="{{ url_for('main.home') }}" class="btn btn-info">Return Home</a>
+        <a href="{{ url_for('shop.index') }}" class="btn btn-info pull-right">Return to Shop</a>
+    </div>
+    <!-- <div class="ml-auto">
+    </div> -->
+
+
+</div>
+
+
+{% endblock content %}
+
+<!-- http://127.0.0.1:5000/shop/payment_canceled/ -->
